@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Hexa</title>
+</head>
+<body>
+
+    <section class="uiWrapper">
+        <div class="personalInfo">
+            <img src="img/profile.jpg" alt="">
+            <p id="username"></p>
+            <p id="email"></p>
+            <button id="changeUserInfoBtn">Izmenji profil</button>
+            <button id="logOutBtn">Odjavi se</button>
+        </div>
+        <div class="commentSection">
+            <div class="outerLayer">
+                <textarea id="userTextArea" placeholder="Write a post"></textarea>
+                <button id="submitPost">Objavi</button>
+            </div>
+        
+            <!-- <div class="commentDisplay">
+                
+                <div class="commentWrapper">
+                    <p>Lorem ispulm dolers sit amen</p>
+                </div>
+                <hr>
+                <div class="commentInterface">
+                    <label><h3>Author: Dule</h3></label><div class="buttonsWrapper"><span><button><i class="fa fa-thumbs-up" aria-hidden="true"></i></button></span><span><button><i class="fa fa-comment" aria-hidden="true"></button></i></span><span><button>Delete</button></span></div>
+
+                </div>
+                <div  class="inputCommentOnPost" >
+                    <input placeholder="Make a comment on this post" type="text">
+                    <button>Comment</button>
+                </div>
+                <div class="commentOnPostWrapper" style="display: block;">
+                    <div class="commentOnPost" style="margin-top: 2%;border: 2px solid orangered;display: flex;justify-content: space-between">
+                        <p style="display: inline; font-weight: bold ; margin-right: 2%;">Dule</p>
+                        <p style="display: inline; text-align: left;text-align: left;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate quo necessitatibus repellat consequuntur vitae maxime nostrum eligendi sed, provident perferendis harum fuga. Ad quis fuga accusamus at voluptate nam aliquam!</p>
+                    </div>
+                </div>
+               
+            </div> -->
+
+
+
+        </div> 
+   
+    </section>
+
+    <div class="popUpChangeModal">
+        <button class="x-button"><i class="fa fa-times" aria-hidden="true"></i></button>
+        <input id="hexaModalInputOne" type="text" placeholder="Change Username">
+        <input id="hexaModalInputTwo" type="text" >
+        <button class="changeBtm">Change</button>
+        <button class="deleteBtm">Delete</button>
+    </div>
+
+    <script type="module" src="js/hexaScript.js"></script>
+</body>
+</html>

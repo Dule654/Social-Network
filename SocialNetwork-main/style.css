@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(29, 29, 219);
+    width: 100vw;
+    height: 100vh;
+}
+.naslov{
+    width: 50%;
+    text-align: center;
+    margin: 5% auto;
+}
+.loginWrapperInfoPOne{
+    color: whitesmoke;
+    font-size: 16px;
+    margin-right: 26%;
+    margin-top: 2%;
+}
+.loginWrapperInfoPTwo{
+    color: whitesmoke;
+    font-size: 16px;
+    margin-right: 23%;
+    margin-top: 2%;
+}
+.loginWrapper{
+    width: 50%;
+    background-color: rgba(245, 245, 245, 0.164);
+    margin: auto;
+    text-align: center;
+    padding: 2% 0%;
+}
+.loginWrapperInfo input{
+    display: block;
+    margin: auto;
+    width: 30%;
+    height: 3vh;
+
+}
+.loginWrapperInfo button{
+    display: block;
+    margin: 2% auto;
+    padding: 8px 16px;
+}
+.singUpWrapper p{
+    font-size: 16px;
+    color: whitesmoke;
+}
+.singUpWrapper button{
+    display: block;
+    margin: 2% auto;
+    padding: 8px 16px;
+}
+.modal{
+    width: 40%;
+    background-color: orangered;
+    padding: 5% 0%;
+    position: absolute;
+    top: 100px;
+    margin: 0 30%;
+    display: none;
+
+}
+.modal input{
+    display: block;
+    margin: 10% auto;
+    height: 3vh;
+
+}
+#SingUpBtnTwo{
+    display: block;
+    margin: 2% auto;
+    padding: 8px 16px;
+}
+    /* --------------------------- Style for hexa.html ------------------------------------ */
+.uiWrapper{
+    display: flex;
+    font-family: sans-serif;
+    padding: 3% 15%;
+    text-align: center;
+    
+    
+}
+.commentSection{
+    margin-left: 2%;
+    padding: 2% 2%;
+    border: 1px solid orangered;
+    height: fit-content;
+}
+.personalInfo{
+    text-align: center;
+    color: whitesmoke;
+    line-height: 5vh;
+    border: 1px solid orangered;
+    padding: 10px 10px;
+    height: fit-content;
+}
+.personalInfo img{
+    width: 100px;
+    height: 100px;
+    border: 7px solid orangered;
+    border-radius: 50%;
+}
+.outerLayer{
+    width: 1000px;
+    display: flex;
+    height: min-content;
+    margin: 2% auto;
+}
+.outerLayer textarea{
+    width: 90%;
+    height: 100px;
+    border: none;
+    padding: 2% 2%;
+    resize: none;    
+}
+.outerLayer button{
+    border: none;
+    height: 100px;
+    width: 10%;
+   
+}
+.outerLayer button:hover{
+    background-color: orangered;
+    color: whitesmoke;
+}
+
+/*------------------------------------------------------------------------*/
+.commentDisplay{
+    background-color: whitesmoke;
+    padding: 2% 5%;
+    border: 3px solid orangered;
+    margin-bottom: 5%;
+}
+.commentDisplay h3{
+    text-align: left;
+    margin-bottom: 2%;
+    font-size: 13px;
+}
+.commentWrapper{
+    text-align: left;
+    padding: 1% 0%;
+
+}
+.commentWrapper p{
+    margin: 2% 0%;
+}
+.commentDisplay label{
+    display: inline-block;
+    
+}
+.commentInterface{
+    display: flex;
+    justify-content: space-between;
+    margin: 2% 0%;
+}
+.buttonsWrapper{
+   display: flex;
+   justify-content: space-between;
+   width: 30%;
+}
+/* .buttonsWrapper span{
+    margin-left: 1%;
+} */
+.buttonsWrapper button{
+    width: 60px;
+    height: 30px;
+}
+.inputCommentOnPost input{
+    width: 70%;
+    height: 30px;
+}
+.inputCommentOnPost button{
+    width: 66px;
+    height: 30px;
+}
+/*----------------------------------------------------------------------------------------*/
+.x-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 22px;
+}
+.popUpChangeModal{
+    width: 30%;
+    background-color: orangered;
+    padding: 2% 10%;
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    display: none;
+}
+.popUpChangeModal input{
+    display: block;
+    height: 30px;
+    margin: 5% 0%;
+}
+.changeBtm{
+    margin-left: 3%;
+    padding: 8px 16px;
+} 
+.deleteBtm{
+    padding: 8px 16px;
+    color: red;
+    
+    border: 3px solid red;
+}
